@@ -35,7 +35,7 @@ export default {
       
       <ul class="d-flex ">
 
-        <li  v-for="(element, index) in store.navBar"
+        <li  v-for="(element, index) in store.headerNavBar"
           :key="index">
           <a href="#" >{{element.title}} <i class="fa-solid fa-chevron-down"></i></a>
         </li>        

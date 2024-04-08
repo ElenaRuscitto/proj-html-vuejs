@@ -3,7 +3,7 @@ import {reactive} from 'vue';
 export const store = reactive ({
 // HEADER
 
-navBar: [
+headerNavBar: [
   {
     title: 'Home',
     action: [
@@ -106,6 +106,55 @@ navBar: [
       },
     ],
   }
-]
+],
 // /navBar
+
+footerNavBar:
+  {
+    address: 
+    [
+      '382 NE 191st St # 87394 Miami, FL 33179-3899',
+      '+1 (305) 547-9909 (9pm EST, Monday - Friday)',
+      'support@maxcoach.com'
+    ],
+    icons: [
+      {
+        socialName: 'Facebook',
+        socialLink: '#',
+        social: 'fa-brands fa-square-facebook',
+      },
+      {
+        socialName: 'Twitter',
+        socialLink: '#',
+        social: 'fa-brands fa-twitter',
+      },
+      {
+        socialName: 'Instagram',
+        socialLink: '#',
+        social: 'fa-brands fa-instagram',
+      },
+      {
+        socialName: 'Linkedin',
+        socialLink: '#',
+        social: 'fa-brands fa-linkedin',
+      },
+    ],
+    explore: [
+      'Start here',
+      'Blog',
+      'About using',
+     
+    ],
+    nullo: [
+      'Success story',
+      'Courses',
+      'Contact us',
+    ],
+     information: [
+    'Membership',
+    'Purchase guide',
+    'Privacy police',
+    'Terms of services'
+    ]
+  }
 });
