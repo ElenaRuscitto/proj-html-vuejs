@@ -20,6 +20,8 @@ navBar: [
         link: '#',
       },
     ],
+  },
+  {
     title: 'Pages',
     action: [
       {
@@ -35,6 +37,8 @@ navBar: [
         link: '#',
       },
     ],
+  },
+  {
     title: 'Courses',
     action: [
       {
@@ -50,6 +54,8 @@ navBar: [
         link: '#',
       },
     ],
+  },
+  { 
     title: 'Features',
     action: [
       {
@@ -65,6 +71,8 @@ navBar: [
         link: '#',
       },
     ],
+  },
+  {
     title: 'Blog',
     action: [
       {
@@ -80,6 +88,8 @@ navBar: [
         link: '#',
       },
     ],
+  },
+  {
     title: 'Shop',
     action: [
       {
@@ -97,4 +107,5 @@ navBar: [
     ],
   }
 ]
+// /navBar
 });

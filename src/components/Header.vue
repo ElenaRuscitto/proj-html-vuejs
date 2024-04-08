@@ -1,11 +1,16 @@
 <script>
 import {store} from '../data/store';
+// import NavBar from './partials/NavBar.vue'
 
 export default {
-  
+   components: {
+    // NavBar,
+   },
     data(){
+     
       return {
         store,
+        
       }
     }
   }
@@ -24,41 +29,21 @@ export default {
         </div>
         <!-- /logo -->
 
-         <!-- menu -->
+         <!-- navBar menu -->      
         <div class="col menu">
           
           <ul class="d-flex ">
-            <a href="#" 
-              v-for="(element, index) in store.navBar"
-              :key="index">
-              <li>{{element.title}} <i class="fa-solid fa-chevron-down"></i></li>
-            </a>
 
-            <!-- <a href="">
-              <li>Home <i class="fa-solid fa-chevron-down"></i></li>
-            </a>
-            <a href="">
-              <li>Pages <i class="fa-solid fa-chevron-down"></i></li>
-            </a>
-            <a href="">
-              <li>Courses <i class="fa-solid fa-chevron-down"></i></li>
-            </a>
-            <a href="">
-              <li>Features <i class="fa-solid fa-chevron-down"></i></li>
-            </a>
-            <a href="">
-              <li>Blog <i class="fa-solid fa-chevron-down"></i></li>
-            </a>
-            <a href="">
-              <li>Shop <i class="fa-solid fa-chevron-down"></i></li>
-            </a> -->
-            
+            <li  v-for="(element, index) in store.navBar"
+              :key="index">
+              <a href="#" >{{element.title}} <i class="fa-solid fa-chevron-down"></i></a>
+            </li>        
             
           </ul>
         
 
         </div>
-        <!-- /menu -->
+        <!-- /navBar menu -->
 
         <!-- serch -->
         <div class="col-3 d-flex align-items-center   ">
@@ -110,7 +95,9 @@ header {
   .row {
     height: 80px;
     line-height: 80px;
-
+    .fa-chevron-down {
+          font-size: 8px;
+        }
 
   }
  
@@ -120,6 +107,7 @@ header {
   
   ul {
     list-style: none;
+    margin-left: 10%;
 
     li {
       margin-right: 40px;
@@ -129,11 +117,8 @@ header {
   a {
       text-decoration: none;
       color: $bgc-viola;
-      
-        .fa-chevron-down {
-          font-size: 8px;
-        }
   }
+
 
   .language {
     line-height: 80px;
