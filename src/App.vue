@@ -5,6 +5,7 @@ import Footer from './components/Footer.vue';
 import axios from 'axios';
 import {store} from './data/store'; 
 
+
 export default {
     components: {
       Header,
@@ -15,6 +16,7 @@ export default {
     data(){
       return {
         axios,
+        store
       }
     }
   }

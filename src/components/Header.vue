@@ -1,10 +1,10 @@
 <script>
 import {store} from '../data/store';
-// import NavBar from './partials/NavBar.vue'
+import Jumbotron from './partials/Jumbotron.vue';
 
 export default {
    components: {
-    // NavBar,
+    Jumbotron
    },
     data(){
      
@@ -18,71 +18,77 @@ export default {
 
 
 <template>
-  <header>
-<!-- TODO - RENDERE LA NAVBAR UN COMPONENT E STAMPARLO DINAMICAMENTE -->
-    <div class="container h-100 ">
-      <div class="row d-flex justify-content-between align-center h-100">
+  <div>
+    <header>
 
-        <!-- logo -->
-        <div class="col-2 logo">
-          <img src=" ../assets/img/dark-logo.png" alt="logo">
-        </div>
-        <!-- /logo -->
+<div class="container h-100 ">
+  <div class="row d-flex justify-content-between align-center h-100">
 
-         <!-- navBar menu -->      
-        <div class="col menu">
-          
-          <ul class="d-flex ">
-
-            <li  v-for="(element, index) in store.navBar"
-              :key="index">
-              <a href="#" >{{element.title}} <i class="fa-solid fa-chevron-down"></i></a>
-            </li>        
-            
-          </ul>
-        
-
-        </div>
-        <!-- /navBar menu -->
-
-        <!-- serch -->
-        <div class="col-3 d-flex align-items-center   ">
-
-          <!-- seleziona lingua -->
-          <div class="language d-flex ">
-            <img src="../assets/img/en.png" alt="en" class="align-self-center">
-
-            <select class="form-select mx-3" >
-              <option > Select Language:</option>
-              <option selected value="1">English</option>
-              <option value="2">Italiano</option>
-              <option value="3">Deutsch</option>
-            </select>
-
-            <i class="fa-regular fa-circle-user"></i>
-          </div>
-          <!-- /seleziona lingua -->
-
-          <!-- cerca -->
-          <div class="search d-flex h-25 mx-2">
-            <input type="text" placeholder="Search..." class="cerca">
-            <i class="fa-solid fa-magnifying-glass"></i>
-          </div>
-          <!-- /cerca -->
-          
-        </div>
-        <!-- /serch -->
-      </div>
-
-
-
-
-      
-     
-        
+    <!-- logo -->
+    <div class="col-2 logo">
+      <img src=" ../assets/img/dark-logo.png" alt="logo">
     </div>
+    <!-- /logo -->
 
-  </header>
+     <!-- navBar menu -->      
+    <div class="col menu">
+      
+      <ul class="d-flex ">
+
+        <li  v-for="(element, index) in store.navBar"
+          :key="index">
+          <a href="#" >{{element.title}} <i class="fa-solid fa-chevron-down"></i></a>
+        </li>        
+        
+      </ul>
+    
+
+    </div>
+    <!-- /navBar menu -->
+
+    <!-- serch -->
+    <div class="col-3 d-flex align-items-center   ">
+
+      <!-- seleziona lingua -->
+      <div class="language d-flex ">
+        <img src="../assets/img/en.png" alt="en" class="align-self-center">
+
+        <select class="form-select mx-3" >
+          <option > Select Language:</option>
+          <option selected value="1">English</option>
+          <option value="2">Italiano</option>
+          <option value="3">Deutsch</option>
+        </select>
+
+        <i class="fa-regular fa-circle-user"></i>
+      </div>
+      <!-- /seleziona lingua -->
+
+      <!-- cerca -->
+      <div class="search d-flex h-25 mx-2">
+        <input type="text" placeholder="Search..." class="cerca">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+      <!-- /cerca -->
+      
+    </div>
+    <!-- /serch -->
+
+ 
+  </div>
+
+
+  
+
+  
+ 
+    
+</div>
+
+</header>
+
+<Jumbotron />
+  </div>
 
 </template>
 
