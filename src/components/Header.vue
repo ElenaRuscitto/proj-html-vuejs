@@ -1,5 +1,14 @@
 <script>
+import {store} from '../data/store';
 
+export default {
+  
+    data(){
+      return {
+        store,
+      }
+    }
+  }
 </script>
 
 
@@ -19,7 +28,13 @@
         <div class="col menu">
           
           <ul class="d-flex ">
-            <a href="">
+            <a href="#" 
+              v-for="(element, index) in store.navBar"
+              :key="index">
+              <li>{{element.title}} <i class="fa-solid fa-chevron-down"></i></li>
+            </a>
+
+            <!-- <a href="">
               <li>Home <i class="fa-solid fa-chevron-down"></i></li>
             </a>
             <a href="">
@@ -36,7 +51,7 @@
             </a>
             <a href="">
               <li>Shop <i class="fa-solid fa-chevron-down"></i></li>
-            </a>
+            </a> -->
             
             
           </ul>
