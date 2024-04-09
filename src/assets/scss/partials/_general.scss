@@ -1,6 +1,28 @@
+@use './variables' as *;
+
 .my-container {
   max-width: 1000px;
   margin: 0 auto;
+}
+
+.er-container {
+  max-width: 1000px;
+  margin: 100px auto;
+}
+
+.testi {
+  width: 40%;
+  align-self: center;
+  h5 {
+    color: $color-verde;
+  }
+  p {
+    color: $color-grigio;
+  }
+  
+  .btn-success {
+    background-color: $color-verde;
+  }
 }
 
 .btn {

@@ -17,12 +17,12 @@ export default {
 
     <div class="my-container d-flex">
       <div class="testi">
-      <h5>New Challenges, New Skills</h5>
-      <h2 class="py-2">BUILD TOUR OWN LIFE COACHING BUSINESS</h2>
-      <p class="py-2">Whole-Life Business Coaching for committed entrepreneurs</p>
-      <button class="btn btn-success"><strong>Get started today</strong></button>
+        <h5>New Challenges, New Skills</h5>
+        <h2 class="py-2">BUILD TOUR OWN LIFE COACHING BUSINESS</h2>
+        <p class="py-2">Whole-Life Business Coaching for committed entrepreneurs</p>
+        <button class="btn btn-success"><strong>Get started today</strong></button>
 
-    </div>
+      </div>
 
     <div class="immagine">
       <img src="../../assets/img/home-business-hero-avatar.png" alt="home business">
@@ -47,20 +47,7 @@ export default {
   width: 100%;
   
 
-  .testi {
-    width: 40%;
-    align-self: center;
-    h5 {
-      color: $color-verde;
-    }
-    p {
-      color: $color-grigio;
-    }
-    
-    .btn-success {
-      background-color: $color-verde;
-    }
-  }
+ 
 
     .immagine{
     background-image: url('../../assets/img/home-business-hero-global-image.png');

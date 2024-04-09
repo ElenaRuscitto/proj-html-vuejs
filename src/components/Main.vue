@@ -1,7 +1,12 @@
 <script>
 import {store} from '../data/store';
+import Pioneers from './partials/Pioneers.vue';
 
 export default {
+
+  components: {
+     Pioneers
+   },
   
     data(){
       return {
@@ -14,7 +19,8 @@ export default {
 
 <template>
   <div>
-    Main
+    <Pioneers />
+    
   </div>
   
 </template>
