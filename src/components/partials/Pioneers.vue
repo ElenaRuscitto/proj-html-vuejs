@@ -22,10 +22,10 @@ import {store} from '../../data/store';
 <template>
   <div class="er-container">
     <div class="testi text-center w-100">
-    <h5 class="mt-5">Let's Dream Big Together</h5>
-    <h4 class="descr py-4 w-75 mb-5">
-      <strong>We are pioneers of the digital approach, using leading-edge technology to simplify procedures and apply executive coaching in the new age of digitalization.</strong>
-    </h4>
+      <h5 class="mt-5">Let's Dream Big Together</h5>
+      <h4 class="descr py-4 w-75 mb-5">
+        <strong>We are pioneers of the digital approach, using leading-edge technology to simplify procedures and apply executive coaching in the new age of digitalization.</strong>
+      </h4>
 
       <div class="row row-cols-3 ">
         <div class="col mb-5 "

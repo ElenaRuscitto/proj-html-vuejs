@@ -195,7 +195,36 @@ footerNavBar:
         description: 'Business Coaching often keep your focus and develop you both in a professional and personal way.'
       },
     ],
-
+  },
     // /pioneers
+
+    // Explore
+    explore:
+  {
+    card: [
+      {
+        image: 'course-02-443x600.jpg',
+        title: '$40.00',
+        description: 'Learning to Write as a Professional Author'
+      },
+      {
+        image: 'stock-full-hd-03-443x600.jpg',
+        title: 'Free',
+        description: 'Customer-centric Info-Tech Strategies'
+      },
+      {
+        image: 'stock-full-hd-04-443x600.jpg',
+        title: '$19.00',
+        description: 'Open Programming Courses for Everyone: Python'
+      },
+      {
+        image: 'stock-full-hd-06-443x600.jpg',
+        title: '$26.00',
+        description: 'Academic Listening and Note-taking'
+      },
+
+    ],
+
+    // /Explore
   }
 });

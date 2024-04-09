@@ -1,0 +1,105 @@
+<script>
+import {store} from '../../data/store';
+
+  export default {
+    data(){
+     
+     return {
+       store
+       
+     }
+   },
+   methods: {
+      getImage(image){
+        return new URL (`../../assets/img/${image}`, import.meta.url).href
+      }
+    }
+  }
+</script>
+
+<template>
+  <div class="explore">
+    <div class="container">
+
+      <div class="testi text-center w-100">
+          <h5 class="mt-5">Let's Dream Big Together</h5>
+          <h4 class="descr py-4 mb-5">
+            <strong>Explore How can I help you</strong>
+          </h4>
+        </div>
+
+      <div class="row row-cols-4 ">
+
+        <div class="col"
+        v-for="(element, index) in store.explore.card"
+        :key="index">
+          <div class="card text-bg-dark h-100">
+            <img :src="getImage(element.image)" class="card-img" alt="...">
+            <div class="card-img-overlay">
+              <h5 class="card-title">$40.00</h5>
+              <p class="card-text"><strong>Learning to Write as a Professional Author</strong></p>
+          
+            </div>
+          </div>
+        </div>
+
+
+        <!-- <div class="col">
+          <div class="card text-bg-dark">
+            <img src="..." class="card-img" alt="...">
+            <div class="card-img-overlay">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small>Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col">
+          <div class="card text-bg-dark">
+            <img src="..." class="card-img" alt="...">
+            <div class="card-img-overlay">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small>Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col">
+          <div class="card text-bg-dark">
+            <img src="..." class="card-img" alt="...">
+            <div class="card-img-overlay">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small>Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div> -->
+
+
+      </div>
+
+
+      <div class="testi text-center ">
+        <p>Take the control of their life back and start doing thinghs to make their dream come tru. <strong>View all courses
+          <i class="fa-solid fa-arrow-right"></i>
+        </strong></p>
+      </div>
+
+
+    </div>
+  </div>
+</template>
+
+
+
+<style lang="scss" scoped>
+@use '../../assets/scss/partials/general' as *;
+@use '../../assets/scss/partials/variables' as *;
+
+
+
+</style>
