@@ -18,9 +18,9 @@ export default {
     <div class="my-container d-flex">
       <div class="testi">
         <h5>New Challenges, New Skills</h5>
-        <h2 class="py-2">BUILD TOUR OWN LIFE COACHING BUSINESS</h2>
+        <h2 class="py-2"><strong>BUILD TOUR OWN LIFE COACHING BUSINESS</strong></h2>
         <p class="py-2">Whole-Life Business Coaching for committed entrepreneurs</p>
-        <button class="btn btn-success"><strong>Get started today</strong></button>
+        <button class="btn my-btn btn-success "><strong>Get started today</strong></button>
 
       </div>
 
@@ -45,17 +45,27 @@ export default {
 .jumbotron {
   background-color: $bgc-ghiaccio;
   width: 100%;
+  background-image: url('../../assets/img/home-business-hero-global-image.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 750px;
   
+  .my-btn {
+    padding: 12px 8%;
+  }
 
+  .testi {
+    margin-bottom: 120px;
+  }
  
 
     .immagine{
-    background-image: url('../../assets/img/home-business-hero-global-image.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    // width: 75%;
+    margin-left: 50px;
+
     img {
       margin-top: 20px;
+      width: 480px;
+      margin-left: 150px;
     }
        
   }

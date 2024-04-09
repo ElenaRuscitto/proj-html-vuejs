@@ -22,7 +22,7 @@ export default {
   <div>
     <header>
 
-      <div class="container h-100 ">
+      <div class="container-lg h-100 ">
         <div class="row d-flex justify-content-between align-center h-100">
 
           <!-- logo -->
@@ -103,8 +103,8 @@ export default {
 header {
   
   .row {
-    height: 80px;
-    line-height: 80px;
+    height: 50px;
+    line-height: 50px;
     .fa-chevron-down {
           font-size: 8px;
         }
@@ -112,7 +112,7 @@ header {
   }
  
   .logo img {
-  width: 160px ;
+  width: 130px ;
   } 
   
   ul {
@@ -121,6 +121,7 @@ header {
 
     li {
       margin-right: 40px;
+      font-size: 13px;
   }
   }
 
@@ -165,7 +166,6 @@ header {
     }
 
     .fa-magnifying-glass {
-      padding-top: 7px;
       padding-left: 10px;
       margin-right: 15px;
     }

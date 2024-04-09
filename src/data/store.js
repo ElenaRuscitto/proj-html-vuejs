@@ -165,35 +165,37 @@ footerNavBar:
   {
     one: [
       {
-        image: '../../assets/img/icona1.svg',
+        image: 'icona1.svg',
         title: 'One to One',
         description: 'Getting the necessary clarity about the current state to help you impove your game.'
       },
       {
-        image: '../../assets/img/icona2.svg',
+        image: 'icona2.svg',
         title: 'Anywhere',
         description: 'Access to valuable and portable program which allow you to setup and live anywhere you want.'
       },
       {
-        image: '../../assets/img/icona3.svg',
+        image: 'icona3.svg',
         title: 'On Time',
         description: "Punctuality is our top pryority because it's an essential criteria to assess a program quality."
       },
       {
-        image: '../../assets/img/icona4.svg',
+        image: 'icona4.svg',
         title: 'Online Coures',
         description: 'Online business coaching now offers tou a very powerful way to empower your business into success.'
       },
       {
-        image: '../../assets/img/icona5.svg',
+        image: 'icona5.svg',
         title: 'Consulting',
         description: 'You will get a clear sense of direction for your business, through assessment and faster results.'
       },
       {
-        image: '../../assets/img/icona6.svg',
+        image: 'icona6.svg',
         title: 'Self Development',
         description: 'Business Coaching often keep your focus and develop you both in a professional and personal way.'
       },
     ],
+
+    // /pioneers
   }
 });

@@ -1,5 +1,5 @@
 <script>
-import {store} from '../data/store';
+import {store} from '../../data/store';
 
   export default {
     data(){
@@ -8,7 +8,12 @@ import {store} from '../data/store';
        store
        
      }
-   }
+   },
+   methods: {
+      getImage(image){
+        return new URL (`../../assets/img/${image}`, import.meta.url).href
+      }
+    }
     
   }
 </script>
@@ -17,16 +22,21 @@ import {store} from '../data/store';
 <template>
   <div class="er-container">
     <div class="testi text-center w-100">
-    <h5 class="my-5">Let's Dream Big Together</h5>
-    <h4 class="py-2">We are pioneers of the digital approach, using leading-edge technology to simplify procedures and apply executive coaching in the new age of digitalization.</h4>
+    <h5 class="mt-5">Let's Dream Big Together</h5>
+    <h4 class="descr py-4 w-75 mb-5">
+      <strong>We are pioneers of the digital approach, using leading-edge technology to simplify procedures and apply executive coaching in the new age of digitalization.</strong>
+    </h4>
 
       <div class="row row-cols-3 ">
-        <div class="col my-5">
+        <div class="col mb-5 "
+          v-for="(element, index) in store.pioneers.one"
+          :key="index"> 
           <div class="d-flex text-start cardPioneers">
-            <img src="../../assets/img/icona1.svg" alt="icons">
-            <div>
-              <h6>One to One</h6>
-              <p>Getting the necessary clarity about the current state to help you impove your game.</p>
+            <img 
+            :src="getImage(element.image)" alt="icons">
+            <div class="pippo">
+              <h6> {{ element.title }} </h6>
+              <p> {{ element.description }} </p>
             </div>
 
           </div>
@@ -34,21 +44,7 @@ import {store} from '../data/store';
 
 
 
-        <div class="col my-5">
-          <div class="d-flex text-start cardPioneers">
-            <img src="../../assets/img/icona1.svg" alt="icons1">
-            <div>
-              <h6>One to One</h6>
-              <p>Getting the necessary clarity about the current state to help you impove your game.</p>
-            </div>
-
-          </div>
-        </div>
-
-
-
-
-        <div class="col my-5">
+        <!-- <div class="col my-5">
           <div class="d-flex text-start cardPioneers">
             <img src="../../assets/img/icona1.svg" alt="icons1">
             <div>
@@ -100,6 +96,20 @@ import {store} from '../data/store';
 
           </div>
         </div>
+
+
+
+
+        <div class="col my-5">
+          <div class="d-flex text-start cardPioneers">
+            <img src="../../assets/img/icona1.svg" alt="icons1">
+            <div>
+              <h6>One to One</h6>
+              <p>Getting the necessary clarity about the current state to help you impove your game.</p>
+            </div>
+
+          </div>
+        </div> -->
 
 
 
@@ -125,8 +135,21 @@ import {store} from '../data/store';
 
 .my-btn {
   color:$color-verde;
+  border: 1px solid $color-grigioChiaro;
 }
 
+.pippo {
+  margin-left: 20px;
+}
 
+.descr {
+  margin: 0 auto;
+  line-height: 1.5;
+}
+
+p {
+  font-size: 13px;
+  color: $color-grigioChiaro;
+}
 
 </style>
