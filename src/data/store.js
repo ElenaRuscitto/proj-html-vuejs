@@ -200,11 +200,12 @@ footerNavBar:
 
     // Explore
     explore:
-  {
+    {
     card: [
       {
         image: 'course-02-443x600.jpg',
-        title: '$40.00',
+        title: '$40.',
+        littleTitle: '00',
         description: 'Learning to Write as a Professional Author'
       },
       {
@@ -214,17 +215,19 @@ footerNavBar:
       },
       {
         image: 'stock-full-hd-04-443x600.jpg',
-        title: '$19.00',
+        title: '$19.',
+        littleTitle: '00',
         description: 'Open Programming Courses for Everyone: Python'
       },
       {
         image: 'stock-full-hd-06-443x600.jpg',
-        title: '$26.00',
+        title: '$26.',
+        littleTitle: '00',
         description: 'Academic Listening and Note-taking'
       },
 
     ],
 
     // /Explore
-  }
+    }
 });

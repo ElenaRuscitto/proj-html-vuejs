@@ -33,11 +33,14 @@ import {store} from '../../data/store';
         <div class="col"
         v-for="(element, index) in store.explore.card"
         :key="index">
-          <div class="card text-bg-dark h-100">
-            <img :src="getImage(element.image)" class="card-img" alt="...">
-            <div class="card-img-overlay">
-              <h5 class="card-title">$40.00</h5>
-              <p class="card-text"><strong>Learning to Write as a Professional Author</strong></p>
+          <div class="card my-card text-bg-dark h-100 my-card-img">
+            <img :src="getImage(element.image)" class="card-img " alt="...">
+            <div class="card-img-overlay d-flex flex-column justify-content-end ">
+             <div class="div d-flex ">
+              <h5 class="card-title my-card-title"> {{ element.title }}</h5>
+              <span class="littleTitle"> {{ element.littleTitle }} </span>
+             </div>
+              <p class="card-text"><strong> {{ element.description }}</strong></p>
           
             </div>
           </div>
@@ -83,7 +86,7 @@ import {store} from '../../data/store';
       </div>
 
 
-      <div class="testi text-center ">
+      <div class="testi my-testi text-center ">
         <p>Take the control of their life back and start doing thinghs to make their dream come tru. <strong>View all courses
           <i class="fa-solid fa-arrow-right"></i>
         </strong></p>
@@ -100,6 +103,32 @@ import {store} from '../../data/store';
 @use '../../assets/scss/partials/general' as *;
 @use '../../assets/scss/partials/variables' as *;
 
+
+.my-card {
+  border: none;
+  
+  .my-card-img {
+    box-shadow: inset -1px -20px 39px 13px #000000;
+  }
+
+  .my-card-title {
+    color: $color-verde;
+    font-size: 16px;
+
+  }
+  .littleTitle {
+    color: $color-verde;
+    font-weight: bold;
+    font-size: 13px;
+  
+  }
+
+
+}
+
+.my-testi {
+   margin: 50px auto 80px ;
+  }
 
 
 </style>
