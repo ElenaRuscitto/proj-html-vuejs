@@ -32,7 +32,7 @@
               <div class="card-body text-center ">
                 <a href="#" class="card-link my-card">
                   <strong>Discover now</strong>
-                  <i class="fa-solid fa-arrow-right"></i>
+                  <i class="fa-solid fa-arrow-right-long px-2"></i>
                 </a>
                 
               </div>
@@ -56,7 +56,7 @@
               <div class="card-body text-center ">
                 <a href="#" class="card-link my-card">
                   <strong>Discover now</strong>
-                  <i class="fa-solid fa-arrow-right"></i>
+                  <i class="fa-solid fa-arrow-right-long px-2"></i>
                 </a>
                 
               </div>
@@ -80,7 +80,7 @@
               <div class="card-body text-center ">
                 <a href="#" class="card-link my-card">
                   <strong>Discover now</strong>
-                  <i class="fa-solid fa-arrow-right"></i>
+                  <i class="fa-solid fa-arrow-right-long px-2 "></i>
                 </a>
                 
               </div>
@@ -111,7 +111,7 @@
 
 
 .carousel {
-  background-color: $bgc-begie;
+  background-color: $bgc-grigino;
   margin: 100px auto;
 
   .row {
@@ -136,7 +136,7 @@
     padding-bottom: 80px;
 
     .paginator {
-      border: 5px solid black;
+      border: 7px solid black;
       border-radius: 50%;
       margin: 0 5px;
     }

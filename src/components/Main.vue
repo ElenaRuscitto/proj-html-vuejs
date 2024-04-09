@@ -3,6 +3,8 @@ import {store} from '../data/store';
 import Pioneers from './partials/Pioneers.vue';
 import CarouselPrimo from './partials/CarouselPrimo.vue'
 import Explore from './partials/Explore.vue';
+import Youtube from './partials/Youtube.vue'
+
 
 
 export default {
@@ -10,7 +12,8 @@ export default {
   components: {
      Pioneers,
      CarouselPrimo,
-     Explore
+     Explore,
+     Youtube
    },
   
     data(){
@@ -27,6 +30,7 @@ export default {
     <Pioneers />
     <CarouselPrimo />
     <Explore />
+    <Youtube />
     
   </div>
   
