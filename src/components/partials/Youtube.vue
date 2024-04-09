@@ -17,10 +17,10 @@
           </div>
         </div>
         
-        <div class="col">
-          <div class="testi text-center w-100">
+        <div class="col col-4">
+          <div class="testi  w-100">
 
-            <h2 class="descr py-4 mb-5">
+            <h2 class="descr py-4 mb-5 text-white ">
               <strong>To Thrive In Business Today, You'II Need a Good Plan</strong>
             </h2>
             <div class="circle">
@@ -46,7 +46,7 @@
 .youtube {
   background-color: $bgc-viola;
   padding-top: 150px;
-  padding-bottom: 150px;
+  padding-bottom: 160px;
   background-image: url('../../assets/img/background-map-dots-top-right-transparent.png');
   background-size: contain;
   background-repeat: no-repeat;
@@ -64,7 +64,9 @@
   .bg {
     width: 150px;
     height: 150px;
-
+    position: absolute;
+    bottom: -150px;
+    left: -85px;
 
   }
 

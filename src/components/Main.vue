@@ -4,6 +4,7 @@ import Pioneers from './partials/Pioneers.vue';
 import CarouselPrimo from './partials/CarouselPrimo.vue'
 import Explore from './partials/Explore.vue';
 import Youtube from './partials/Youtube.vue'
+import Newsletters from './partials/Newsletters.vue';
 
 
 
@@ -13,7 +14,8 @@ export default {
      Pioneers,
      CarouselPrimo,
      Explore,
-     Youtube
+     Youtube,
+     Newsletters
    },
   
     data(){
@@ -31,6 +33,7 @@ export default {
     <CarouselPrimo />
     <Explore />
     <Youtube />
+    <Newsletters />
     
   </div>
   
