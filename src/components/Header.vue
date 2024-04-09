@@ -133,6 +133,7 @@ header {
     
       img {
         height: 20px;
+        margin-right: -18px;
       }
   }
 
@@ -146,6 +147,7 @@ header {
 
   .fa-circle-user {
     line-height: 40px;
+    margin-left: -18px;
   }
 
   

@@ -77,8 +77,8 @@ export default {
       <!-- footer bottom -->
       <div class="footer-bottom pt-5 d-flex justify-content-center  align-items-center ">
         <div class="row">
-          <div class="col d-flex ">
-            <p>
+          <div class="col d-flex">
+            <p class="scritta">
               <i class="fa-regular fa-copyright"></i>
               2020 Maxcoach. All Rights Reserved
             </p>
@@ -87,10 +87,10 @@ export default {
         </div>
 
         <div class="col">
-        <div class="arrow">
-          <i class="fa-solid fa-arrow-up"></i>
+          <div class="arrow">
+            <i class="fa-solid fa-arrow-up"></i>
+          </div>
         </div>
-      </div>
       </div>
       </div>
     </div>
@@ -107,20 +107,21 @@ export default {
   background-color: $bgc-indaco-footer;
   color: $color-white;
   height: 350px;
+  font-size: 13px;
+  color: $color-grigioChiaro;
   
   .row{
     width: 1100px;
-  }
-  .footer-nav {
-    p {
-      color: $color-grigioChiaro;
-      font-size: 10px;
+
+    h6 {
+      color: $color-white;
     }
-    a {
+
+    i {
       color: $color-grigioChiaro;
-      padding: 0 10px;
+      font-size: 20px;
+      padding-right: 30px;
     }
-  
   }
 
   ul {
@@ -131,25 +132,37 @@ export default {
        text-decoration: none;
        color: $color-grigioChiaro;
        padding-top: 10px;
+       font-size: 13px;
       }
     }
 
 
   .footer-bottom {
-    font-size: 10px;
-    position: relative;
+     position: relative;
+
+     .scritta,
+     i {
+      padding-left: 400px;
+     }
+
     .arrow {
     background-color: $color-verde;
     border-radius: 50%;
     width: 30px;
     height: 30px;
     font-weight: lighter;
-    padding-top: 7px;
+    padding-top: 5.5px;
     padding-left: 11px;
     position: absolute;
-    bottom: 0;
-    right: 5px
-  }
+    bottom: -30px;
+    right: -120px
+    }
+
+    i {
+      font-size: 13px;
+      padding: 0;
+    }
+
   }
 }
 
