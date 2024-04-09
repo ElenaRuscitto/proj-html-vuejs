@@ -136,15 +136,15 @@
     padding-bottom: 80px;
 
     .paginator {
-      border: 7px solid black;
+      border: 7px solid rgb(47, 42, 87);
       border-radius: 50%;
-      margin: 0 5px;
+      margin: 0 10px;
     }
 
     .pagi {
       border: 5px solid rgb(114, 114, 114);
       border-radius: 50%;
-      margin: 0 5px;
+      margin: 0 10px;
     }
   }
   

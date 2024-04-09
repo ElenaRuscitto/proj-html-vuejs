@@ -3,7 +3,8 @@ import {store} from '../data/store';
 import Pioneers from './partials/Pioneers.vue';
 import CarouselPrimo from './partials/CarouselPrimo.vue'
 import Explore from './partials/Explore.vue';
-import Youtube from './partials/Youtube.vue'
+import Youtube from './partials/Youtube.vue';
+import People from './partials/People.vue'
 import Newsletters from './partials/Newsletters.vue';
 
 
@@ -15,15 +16,16 @@ export default {
      CarouselPrimo,
      Explore,
      Youtube,
+     People,
      Newsletters
    },
   
-    data(){
-      return {
-        store,
-      }
+  data(){
+    return {
+      store,
     }
   }
+}
 </script>
 
 
@@ -33,6 +35,7 @@ export default {
     <CarouselPrimo />
     <Explore />
     <Youtube />
+    <People />
     <Newsletters />
     
   </div>
