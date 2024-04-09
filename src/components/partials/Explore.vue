@@ -33,14 +33,16 @@ import {store} from '../../data/store';
         <div class="col"
         v-for="(element, index) in store.explore.card"
         :key="index">
-          <div class="card my-card text-bg-dark h-100 my-card-img">
+          <div class="my-card text-bg-dark h-100 my-card-img">
             <img :src="getImage(element.image)" class="card-img " alt="...">
             <div class="card-img-overlay d-flex flex-column justify-content-end ">
-             <div class="div d-flex ">
-              <h5 class="card-title my-card-title"> {{ element.title }}</h5>
-              <span class="littleTitle"> {{ element.littleTitle }} </span>
-             </div>
-              <p class="card-text"><strong> {{ element.description }}</strong></p>
+              <div class="pippo ">
+                <div class=" d-flex">
+                  <h5 class="card-title my-card-title"> {{ element.title }}</h5>
+                  <span class="littleTitle"> {{ element.littleTitle }} </span>
+                </div>
+                  <p class="card-text"><strong> {{ element.description }}</strong></p>
+              </div>
           
             </div>
           </div>
@@ -106,9 +108,19 @@ import {store} from '../../data/store';
 
 .my-card {
   border: none;
-  
-  .my-card-img {
-    box-shadow: inset -1px -20px 39px 13px #000000;
+  position: relative;
+  // height: 480px;
+  // width: 350px;
+
+  .pippo {
+    box-shadow: inset -20px -50px 60px 0 #000000;
+    opacity: 1;
+    position: absolute;
+    left:0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    padding: 15px;
   }
 
   .my-card-title {
@@ -128,6 +140,11 @@ import {store} from '../../data/store';
 
 .my-testi {
    margin: 50px auto 80px ;
+
+   strong {
+    
+    border-bottom: 1px solid $color-grigioChiaro;
+   }
   }
 
 
