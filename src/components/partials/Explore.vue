@@ -22,11 +22,11 @@ import {store} from '../../data/store';
     <div class="container">
 
       <div class="testi text-center w-100">
-          <h5 class="mt-5">Let's Dream Big Together</h5>
-          <h4 class="descr py-4 mb-5">
-            <strong>Explore How can I help you</strong>
-          </h4>
-        </div>
+        <h5 class="mt-5">Let's Dream Big Together</h5>
+        <h2 class="descr py-4 mb-5">
+          <strong>Explore How can I help you</strong>
+        </h2>
+      </div>
 
       <div class="row row-cols-4 ">
 

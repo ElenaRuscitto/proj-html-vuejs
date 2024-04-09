@@ -1,12 +1,15 @@
 <script>
 import {store} from '../data/store';
 import Pioneers from './partials/Pioneers.vue';
+import CarouselPrimo from './partials/CarouselPrimo.vue'
 import Explore from './partials/Explore.vue';
+
 
 export default {
 
   components: {
      Pioneers,
+     CarouselPrimo,
      Explore
    },
   
@@ -22,6 +25,7 @@ export default {
 <template>
   <div>
     <Pioneers />
+    <CarouselPrimo />
     <Explore />
     
   </div>
