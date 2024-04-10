@@ -106,6 +106,7 @@ a {
   margin-left: 340px;
   & strong {
   color: $color-verde;
+  border-bottom: 1px solid $color-grigioChiaro;
   }
 }
 

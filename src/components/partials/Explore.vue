@@ -91,7 +91,7 @@ import {store} from '../../data/store';
 
 
       <div class="testi my-testi text-center ">
-        <p>Take the control of their life back and start doing thinghs to make their dream come tru. <strong>View all courses
+        <p>Take the control of their life back and start doing thinghs to make their dream come true. <strong>View all courses
           <i class="fa-solid fa-arrow-right-long"></i>
         </strong></p>
       </div>
@@ -148,7 +148,9 @@ import {store} from '../../data/store';
 }
 
 .my-testi {
+  font-size: 13px;
    margin: 50px auto 80px ;
+   max-width: 440px;
 
    strong {
     

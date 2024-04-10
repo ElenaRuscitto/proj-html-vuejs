@@ -35,9 +35,7 @@ export default {
         <FooterInformation 
         :explore="store.footerNavBar.explore"
         :nullo="store.footerNavBar.nullo"
-        :information="store.footerNavBar.information"/>
-   
-        <!-- / component FooterInformation -->
+        :information="store.footerNavBar.information"/> <!-- / component FooterInformation -->
 
         <!-- footer bottom -->
         <div class="footer-bottom pt-5 d-flex justify-content-center  align-items-center ">
