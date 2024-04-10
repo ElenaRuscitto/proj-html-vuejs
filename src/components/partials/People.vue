@@ -19,7 +19,7 @@
         <div class="row justify-content-between ">
           <!-- card 1 -->
           <div class="col">
-            <div class="card my-card" style="width: 25rem;">
+            <div class="card my-card opacity" style="width: 25rem;">
               <div class="card-body">
                 <h6 class="card-title color">It's a choice of quality for people with special needs</h6>
                 
@@ -40,7 +40,7 @@
           
           <!-- card 2 -->
           <div class="col">
-            <div class="card" style="width: 25rem;">
+            <div class="card my-card" style="width: 25rem;">
               <div class="card-body">
                 <h6 class="card-title color">High leavel of efficiency and scientific teaching methods</h6>
                 
@@ -61,7 +61,7 @@
 
           <!-- card 3 -->
           <div class="col">
-            <div class="card my-card" style="width: 25rem;">
+            <div class="card my-card opacity" style="width: 25rem;">
               <div class="card-body">
                 <h6 class="card-title color">Professional team of specialists and passionate mwntors at reach</h6>
                 
@@ -70,7 +70,7 @@
                 <div class="name d-flex  ">
                   <img src="../../assets/img/testimonial-avata-04.jpg" alt="avatar 4" class="w-25 testimonial">
                   
-                  <div class="testiTestimonial d-flex flex-column mx-3">
+                  <div class="d-flex flex-column mx-3">
                     <p class=" d-inline color mt-3"><strong>MADLEY PONDOR</strong></p>
                     <span class="d-inline"> / IT Specialist</span>
                   </div>
@@ -104,22 +104,34 @@
 
 .people {
   background-color: $bgc-grigino;
+    .my-card {
+      border: none;
+      border-radius: 5px;
+      .color {
+      color: rgb(47, 42, 87);
+      }
+      .testimonial {
+      border-radius: 50%;
+      }
+      p {
+        font-size: 13px;
+      }
+      span {
+        font-size: 12px;
+      }
+    }
+
+    .opacity {
+      opacity: .3;
+    }
 }
-.my-card {
-  opacity: .3;
-}
-.color {
-  color: rgb(47, 42, 87);
-}
-.testimonial {
-  border-radius: 50%;
-}
-p {
-  font-size: 13px;
-}
-span {
-  font-size: 12px;
-}
+
+
+
+
+
+
+
 
 // pallini
 .scorrimento {
@@ -128,13 +140,13 @@ span {
     padding-bottom: 80px;
 
     .paginator {
-      border: 7px solid rgb(47, 42, 87);
+      border: 5px solid rgb(47, 42, 87);
       border-radius: 50%;
       margin: 0 10px;
     }
 
     .pagi {
-      border: 5px solid rgb(114, 114, 114);
+      border: 3.5px solid $color-grigioChiaro;
       border-radius: 50%;
       margin: 0 10px;
     }

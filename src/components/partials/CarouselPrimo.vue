@@ -136,13 +136,13 @@
     padding-bottom: 80px;
 
     .paginator {
-      border: 7px solid rgb(47, 42, 87);
+      border: 5px solid rgb(47, 42, 87);
       border-radius: 50%;
       margin: 0 10px;
     }
 
     .pagi {
-      border: 5px solid rgb(114, 114, 114);
+      border: 3.5px solid $color-grigioChiaro;
       border-radius: 50%;
       margin: 0 10px;
     }
