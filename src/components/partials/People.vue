@@ -8,7 +8,7 @@
 <template>
    <div class="people py-5">
 
-      <div class="container-fluid">
+      <div class="my-container">
             <div class="testi text-center w-100">
                 <h5 class="mt-5">People are praising Maxcoach</h5>
                 <h2 class=" py-2 mb-5">
@@ -20,13 +20,13 @@
           <!-- card 1 -->
           <div class="col">
             <div class="card my-card opacity" style="width: 29rem;">
-              <div class="card-body">
+              <div class="card-body m-3">
                 <h6 class="card-title color">It's a choice of quality for people with special needs</h6>
                 
                 <p class="card-text">I'm a very strict so I require everything to be organized and neat. Then, I'll be able to make things right and shine. MaxCoach guys just got me.</p>
               
                 <div class="name d-flex  ">
-                  <img src="../../assets/img/testimonial-avata-03.jpg" alt="avatar 3" class="w-25 testimonial">
+                  <img src="../../assets/img/testimonial-avata-03.jpg" alt="avatar 3" class="testimonial">
                   
                   <div class="testiTestimonial d-flex flex-column mx-3">
                     <p class=" d-inline color mt-3"><strong>FLORENCE THEMES</strong></p>
@@ -47,9 +47,9 @@
                 <p class="card-text">I'm a free to learn at own pace, follow my own schedule and choose the subject I want to learn from the syllabus. Great study portal for people like me..</p>
               
                 <div class="name d-flex  ">
-                  <img src="../../assets/img/testimonial-avata-02.jpg" alt="avatar 2" class="w-25 testimonial">
+                  <img src="../../assets/img/testimonial-avata-02.jpg" alt="avatar 2" class="testimonial">
                   
-                  <div class="testiTestimonial d-flex flex-column mx-3">
+                  <div class="d-flex flex-column mx-3">
                     <p class=" d-inline color mt-3"><strong>MINA HOLLACE</strong></p>
                     <span class="d-inline"> / Freelancer</span>
                   </div>
@@ -62,13 +62,13 @@
           <!-- card 3 -->
           <div class="col">
             <div class="card my-card opacity" style="width: 29rem;">
-              <div class="card-body">
+              <div class="card-body m-3">
                 <h6 class="card-title color">Professional team of specialists and passionate mwntors at reach</h6>
                 
                 <p class="card-text">I need to get a certification for English proficiency and MaxCoach is my best choise. Their tutors are smart and professional when deadling with students.</p>
               
                 <div class="name d-flex  ">
-                  <img src="../../assets/img/testimonial-avata-04.jpg" alt="avatar 4" class="w-25 testimonial">
+                  <img src="../../assets/img/testimonial-avata-04.jpg" alt="avatar 4" class="testimonial">
                   
                   <div class="d-flex flex-column mx-3">
                     <p class=" d-inline color mt-3"><strong>MADLEY PONDOR</strong></p>
@@ -104,6 +104,12 @@
 
 .people {
   background-color: $bgc-grigino;
+
+  .my-container {
+    max-width: 1700px;
+    margin: 0 29px;
+  }
+ 
     .my-card {
       border: none;
       border-radius: 5px;
@@ -113,7 +119,9 @@
       color: rgb(47, 42, 87);
       }
       .testimonial {
+        margin-top: 15px;
       border-radius: 50%;
+      height: 60px;
       }
       p {
         font-size: 13px;
@@ -121,7 +129,10 @@
       span {
         font-size: 12px;
       }
+
+
     }
+
 
     .opacity {
       opacity: .3;

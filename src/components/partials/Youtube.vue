@@ -11,21 +11,99 @@
       <div class="row row-cols-2 ">
         <div class="col video">
           <img src="../../assets/img/home-business-video-poster-670x450.jpg" alt="poster" >
-          <img src="../../assets/img/maxcoach-shape-07-100x100.png" alt="" class="bg">
+          <img src="../../assets/img/maxcoach-shape-07-150x150.png" alt="" class="bg">
           <div class="logo">
             <img src="../../assets/img/icon-youtube-play.png" alt="logo" >
           </div>
         </div>
         
-        <div class="col my-col col-4 ">
+        <div class="col my-col col-4 text-white">
 
           <h2 class="descr py-4 mb-5 text-white ">
               <strong>To Thrive In Business Today, You'II Need a Good Plan</strong>
           </h2>
 
+<!-- faq -->
+
+
+      <div class="faq d-flex justify-content-between">
+
+        
+        <div class="faq-right">
+          <i class="fa-solid fa-chevron-down"></i>
+          <i class="bonus fa-solid fa-chevron-up"></i>
+        </div>
+
+        <div class="faq-left">        
+          <h6>How can we help?</h6>
+
+          <span class="bonus">
+            <p>
+              How many courses you've been on, using however many techiques and methods. unless you've come to realize the value of mindeset, then you've yet to understand how success comes.
+            </p>
+            <p>
+              Whit everyone else's mindset involved impacting too. Hence why business coaching is so crucial for success.
+            </p>
+          </span>
+        </div>
+
+
+      
+      </div>
+<!-- 2 -->
+
+
+
+      <div class="faq-special d-flex justify-content-between">
+
+        <div class="faq-right">
+          <i class="fa-solid fa-chevron-down"></i>
+          <i class="bonus fa-solid fa-chevron-up"></i>
+        </div>
+
+        <div class="faq-left">        
+          <h6>Why would I need a business COACH?</h6>
+
+          <span class="bonus">
+            <p>
+              How many courses you've been on, using however many techiques and methods. unless you've come to realize the value of mindeset, then you've yet to understand how success comes.
+            </p>
+            <p>
+              Whit everyone else's mindset involved impacting too. Hence why business coaching is so crucial for success.
+            </p>
+          </span>
+        </div>
+
+
+      
+      </div>
+<!-- 3 -->
+      <div class="faq-special d-flex justify-content-between ">
+
+        <div class="faq-right">
+          <i class="fa-solid fa-chevron-down"></i>
+          <i class="bonus fa-solid fa-chevron-up"></i>
+        </div>
+
+        <div class="faq-left">        
+          <h6>What is one-on-one coaching?</h6>
+
+          <span class="bonus">
+            <p>
+              How many courses you've been on, using however many techiques and methods. unless you've come to realize the value of mindeset, then you've yet to understand how success comes.
+            </p>
+            <p>
+              Whit everyone else's mindset involved impacting too. Hence why business coaching is so crucial for success.
+            </p>
+          </span>
+        </div>
+
+
+      
+      </div>     
           <!-- accordion -->
-          <div class="accordion" id="accordionExample">
-            <!-- 1 -->
+          <!-- <div class="accordion" id="accordionExample">
+            
             <div class="accordion-item">
               <h2 class="accordion-header">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -43,8 +121,7 @@
                 </div>
               </div>
             </div>
-            <!-- /1 -->
-            <!-- 2 -->
+          
             <div class="accordion-item">
               <h2 class="accordion-header">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -62,8 +139,7 @@
                 </div>
               </div>
             </div>
-            <!-- /2 -->
-            <!-- 3 -->
+            
             <div class="accordion-item">
               <h2 class="accordion-header">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
@@ -81,21 +157,10 @@
                 </div>
               </div>
             </div>
-            <!-- /3 -->
-
-          </div>
-          <!-- <div class="testi  w-100">
-
-            <h2 class="descr py-4 mb-5 text-white ">
-              <strong>To Thrive In Business Today, You'II Need a Good Plan</strong>
-            </h2>
-            <div class="circle">
-              <i class="fa-solid fa-caret-up"></i>
-            </div>
-            <h5 class="mt-5">How can we help?</h5>
-
+           
 
           </div> -->
+          <!-- /accordion -->
         </div>
 
       </div>
@@ -114,37 +179,43 @@
   // padding-top: 150px;
 
   background-image: url('../../assets/img/background-map-dots-top-right-transparent.png');
-  background-size: 600px;
+  background-size: 1200px;
   background-repeat: no-repeat;
   background-position: 650px;
-  height: 620px;
+  height: 660px;
+  position: relative;
+
 }
 
 .video {
-  position: relative;
+  // position: relative;
   padding-top: 150px;
+  z-index: 1;
   
   img {
     height: 350px;
     width: 530px;
     margin-left: 40px;
+
+    &.bg {
+    width: 150px !important;
+    height: 150px;
+    position: absolute;
+    bottom: 10px;
+    left: 5px;
+
+  }
  
   }
 
-  .bg {
-    width: 150px;
-    height: 150px;
-    position: absolute;
-    bottom: -110px;
-    left: -85px;
 
-  }
 
   .logo {
     position: absolute;
     top: 300px;
-    left: 360px;
+    left: 445px;
     transform: translate(-50% - 50%);
+   
 
     img {
       width: 90px;
@@ -165,6 +236,36 @@
     }
   }
 
+
+
+
+}
+
+  // faq
+  .bonus {
+  display: none;
+}
+
+.faq:hover .bonus,
+.faq-special:hover .bonus {
+  display: inline-block;
+  margin-top: 20px;
+  
+  
+}
+
+
+.faq:hover h6,
+.faq-special:hover h6 {
+  color: $color-verde;
+}
+
+
+
+.faq:hover .fa-chevron-down,
+.faq-special:hover .fa-chevron-down {
+  display: none;
+  background-color: $color-verde;
 }
 
 </style>
