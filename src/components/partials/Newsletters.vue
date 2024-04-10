@@ -46,7 +46,7 @@
   .circle {
     position: absolute;
     top: 120px;
-    left: 80px;
+    left: 100px;
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -77,6 +77,8 @@ h2 {
 
 .col-ciclo {
   position: relative;
+  top: 30px;
+  left: 50px;
 
   .ciclo {
     position: absolute;
