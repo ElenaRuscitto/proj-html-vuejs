@@ -120,8 +120,8 @@
       }
       .testimonial {
         margin-top: 15px;
-      border-radius: 50%;
-      height: 60px;
+        border-radius: 50%;
+        height: 60px;
       }
       p {
         font-size: 13px;
@@ -149,8 +149,8 @@
 // pallini
 .scorrimento {
     margin: 0 auto;
-    margin-top: 20px;
-    padding-bottom: 80px;
+    margin-top: 40px;
+    padding-bottom: 40px;
 
     .paginator {
       border: 5px solid rgb(47, 42, 87);

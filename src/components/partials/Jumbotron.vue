@@ -52,6 +52,9 @@ export default {
   
   .my-btn {
     padding: 12px 8%;
+    &:hover {
+    background-color: $color-indaco-hover;
+  }
   }
 
   .testi {

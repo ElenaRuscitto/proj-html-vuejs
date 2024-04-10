@@ -4,7 +4,8 @@ import Pioneers from './partials/Pioneers.vue';
 import CarouselPrimo from './partials/CarouselPrimo.vue'
 import Explore from './partials/Explore.vue';
 import Youtube from './partials/Youtube.vue';
-import People from './partials/People.vue'
+import Upcoming from './partials/Upcoming.vue';
+import People from './partials/People.vue';
 import Newsletters from './partials/Newsletters.vue';
 
 
@@ -16,6 +17,7 @@ export default {
      CarouselPrimo,
      Explore,
      Youtube,
+     Upcoming,
      People,
      Newsletters
    },
@@ -35,6 +37,7 @@ export default {
     <CarouselPrimo />
     <Explore />
     <Youtube />
+    <Upcoming />
     <People />
     <Newsletters />
     

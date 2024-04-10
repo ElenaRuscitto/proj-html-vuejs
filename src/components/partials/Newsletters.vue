@@ -69,6 +69,9 @@ h2 {
 .my-btn {
   background-color: $color-verde;
   color: $color-white;
+  &:hover {
+    background-color: rgb(99, 211, 191);
+  }
   
 }
 

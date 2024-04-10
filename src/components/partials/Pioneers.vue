@@ -120,7 +120,7 @@ import {store} from '../../data/store';
  
       <div class="">
         <button class="btn my-btn btn-light"><strong>Learn more</strong></button>
-        <button class="btn btn-success mx-5"><strong>Get started today</strong></button>
+        <button class="btn btn-success mx-5 my-btn-2"><strong>Get started today</strong></button>
       </div>
     
     </div>
@@ -136,6 +136,14 @@ import {store} from '../../data/store';
 .my-btn {
   color:$color-verde;
   border: 1px solid $color-grigioChiaro;
+  &:hover {
+    background-color: $color-indaco-hover;
+    color: $color-white;
+  }
+}
+
+.my-btn-2:hover {
+  background-color: rgb(99, 211, 191);
 }
 
 .pippo {

@@ -19,7 +19,7 @@
         
         <div class="col my-col col-4 text-white">
 
-          <h2 class="descr py-4 mb-5 text-white ">
+          <h2 class="descr py-4 mb-5 text-white mt-4">
               <strong>To Thrive In Business Today, You'II Need a Good Plan</strong>
           </h2>
 

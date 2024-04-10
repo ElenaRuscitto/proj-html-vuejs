@@ -201,33 +201,77 @@ footerNavBar:
     // Explore
     explore:
     {
+      card: [
+        {
+          image: 'course-02-443x600.jpg',
+          title: '$40.',
+          littleTitle: '00',
+          description: 'Learning to Write as a Professional Author'
+        },
+        {
+          image: 'stock-full-hd-03-443x600.jpg',
+          title: 'Free',
+          description: 'Customer-centric Info-Tech Strategies'
+        },
+        {
+          image: 'stock-full-hd-04-443x600.jpg',
+          title: '$19.',
+          littleTitle: '00',
+          description: 'Open Programming Courses for Everyone: Python'
+        },
+        {
+          image: 'stock-full-hd-06-443x600.jpg',
+          title: '$26.',
+          littleTitle: '00',
+          description: 'Academic Listening and Note-taking'
+        },
+
+      ],
+    },
+   // /Explore
+
+  // Upcoming
+  upcoming:
+  {
     card: [
       {
-        image: 'course-02-443x600.jpg',
-        title: '$40.',
-        littleTitle: '00',
-        description: 'Learning to Write as a Professional Author'
+        location: 'Texsas, US',
+        title: 'Storytelling Workshop',
+        numeber: '22',
+        month: 'NOV'
       },
       {
-        image: 'stock-full-hd-03-443x600.jpg',
-        title: 'Free',
-        description: 'Customer-centric Info-Tech Strategies'
+        location: 'New York, US',
+        title: 'Painting Art Contest 2020',
+        numeber: '10',
+        month: 'OCT'
       },
       {
-        image: 'stock-full-hd-04-443x600.jpg',
-        title: '$19.',
-        littleTitle: '00',
-        description: 'Open Programming Courses for Everyone: Python'
+        location: 'Hamburg, Germany',
+        title: 'International Art Fair 2020',
+        numeber: '23',
+        month: 'NOV'
       },
       {
-        image: 'stock-full-hd-06-443x600.jpg',
-        title: '$26.',
-        littleTitle: '00',
-        description: 'Academic Listening and Note-taking'
+        location: 'Illinois, US',
+        title: 'Street Performance: Call for Artist',
+        numeber: '15',
+        month: 'DEC'
+      },
+      {
+        location: 'Illinois, US',
+        title: 'Consumer Food Safety Education Conference',
+        numeber: '22',
+        month: 'JUL'
+      },
+      {
+        location: 'Dubai',
+        title: 'How meditation improve your mental health?',
+        numeber: '22',
+        month: 'AUG'
       },
 
     ],
-
-    // /Explore
-    }
+  },
+// /Explore
 });

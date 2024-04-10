@@ -29,7 +29,7 @@
               <ul class="list-group list-group-flush">
 
               </ul>
-              <div class="card-body text-center ">
+              <div class="card-body my-card-body text-center ">
                 <a href="#" class="card-link my-card">
                   <strong>Discover now</strong>
                   <i class="fa-solid fa-arrow-right-long px-2"></i>
@@ -53,7 +53,7 @@
               <ul class="list-group list-group-flush">
 
               </ul>
-              <div class="card-body text-center ">
+              <div class="card-body my-card-body text-center ">
                 <a href="#" class="card-link my-card">
                   <strong>Discover now</strong>
                   <i class="fa-solid fa-arrow-right-long px-2"></i>
@@ -77,7 +77,7 @@
               <ul class="list-group list-group-flush">
 
               </ul>
-              <div class="card-body text-center ">
+              <div class="card-body my-card-body text-center ">
                 <a href="#" class="card-link my-card">
                   <strong>Discover now</strong>
                   <i class="fa-solid fa-arrow-right-long px-2 "></i>
@@ -115,7 +115,7 @@
   margin: 100px auto;
 
   .row {
-    padding-bottom: 100px;
+    padding-bottom: 40px;
   }
 
   .testi {
@@ -131,9 +131,18 @@
     }
   }
 
+  .my-card-body:hover {
+    background-color: $color-verde;
+    & a {
+      color: white;
+    }
+    
+  }
+
   .scorrimento {
     margin: 0 auto;
-    padding-bottom: 80px;
+    // margin-top: 40px;
+    padding-bottom: 70px;
 
     .paginator {
       border: 5px solid rgb(47, 42, 87);
