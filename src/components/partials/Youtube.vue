@@ -23,144 +23,85 @@
               <strong>To Thrive In Business Today, You'II Need a Good Plan</strong>
           </h2>
 
-<!-- faq -->
+    <!-- 1 -->
+          <div class="faq d-flex justify-content-between">
 
-
-      <div class="faq d-flex justify-content-between">
-
-        
-        <div class="faq-right">
-          <i class="fa-solid fa-chevron-down"></i>
-          <i class="bonus fa-solid fa-chevron-up"></i>
-        </div>
-
-        <div class="faq-left">        
-          <h6>How can we help?</h6>
-
-          <span class="bonus">
-            <p>
-              How many courses you've been on, using however many techiques and methods. unless you've come to realize the value of mindeset, then you've yet to understand how success comes.
-            </p>
-            <p>
-              Whit everyone else's mindset involved impacting too. Hence why business coaching is so crucial for success.
-            </p>
-          </span>
-        </div>
-
-
-      
-      </div>
-<!-- 2 -->
-
-
-
-      <div class="faq-special d-flex justify-content-between">
-
-        <div class="faq-right">
-          <i class="fa-solid fa-chevron-down"></i>
-          <i class="bonus fa-solid fa-chevron-up"></i>
-        </div>
-
-        <div class="faq-left">        
-          <h6>Why would I need a business COACH?</h6>
-
-          <span class="bonus">
-            <p>
-              How many courses you've been on, using however many techiques and methods. unless you've come to realize the value of mindeset, then you've yet to understand how success comes.
-            </p>
-            <p>
-              Whit everyone else's mindset involved impacting too. Hence why business coaching is so crucial for success.
-            </p>
-          </span>
-        </div>
-
-
-      
-      </div>
-<!-- 3 -->
-      <div class="faq-special d-flex justify-content-between ">
-
-        <div class="faq-right">
-          <i class="fa-solid fa-chevron-down"></i>
-          <i class="bonus fa-solid fa-chevron-up"></i>
-        </div>
-
-        <div class="faq-left">        
-          <h6>What is one-on-one coaching?</h6>
-
-          <span class="bonus">
-            <p>
-              How many courses you've been on, using however many techiques and methods. unless you've come to realize the value of mindeset, then you've yet to understand how success comes.
-            </p>
-            <p>
-              Whit everyone else's mindset involved impacting too. Hence why business coaching is so crucial for success.
-            </p>
-          </span>
-        </div>
-
-
-      
-      </div>     
-          <!-- accordion -->
-          <!-- <div class="accordion" id="accordionExample">
+            <div class="faq-left">  
+              
+              <div class="faq-right d-inline-flex  ">
+                <i class="fa-solid fa-caret-down mx-2"></i>
+                <i class="bonus fa-solid fa-caret-up"></i>
+                <h5>How can we help?</h5>
+              </div>
             
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  <h6>How can we help?</h6>
-                </button>
-              </h2>
-              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <p>
-                    How many courses you've been on, using however many techiques and methods. unless you've come to realize the value of mindeset, then you've yet to understand how success comes.
-                  </p>
-                  <p>
-                    Whit everyone else's mindset involved impacting too. Hence why business coaching is so crucial for success.
-                  </p>
-                </div>
+
+              <div class="bonus mx-3">
+                <p>
+                  How many courses you've been on, using however many techiques and methods. unless you've come to realize the value of mindeset, then you've yet to understand how success comes.
+                </p>
+                <p> 
+                  Whit everyone else's mindset involved impacting too. Hence why business coaching is so crucial for success.
+                </p>
               </div>
             </div>
+
+         
           
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  <h6>Why would I need a business COACH?</h6>
-                </button>
-              </h2>
-              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <p>
-                    How many courses you've been on, using however many techiques and methods. unless you've come to realize the value of mindeset, then you've yet to understand how success comes.
-                  </p>
-                  <p>
-                    Whit everyone else's mindset involved impacting too. Hence why business coaching is so crucial for success.
-                  </p>
-                </div>
-              </div>
-            </div>
-            
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  <h6>What is one-on-one coaching?</h6>
-                </button>
-              </h2>
-              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <p>
-                    How many courses you've been on, using however many techiques and methods. unless you've come to realize the value of mindeset, then you've yet to understand how success comes.
-                  </p>
-                  <p>
-                    Whit everyone else's mindset involved impacting too. Hence why business coaching is so crucial for success.
-                  </p>
-                </div>
-              </div>
-            </div>
-           
+          </div>
+    <!-- 2 -->
+          <div class="faq-special d-flex justify-content-between">
 
-          </div> -->
-          <!-- /accordion -->
+            <div class="faq-left">    
+              
+              <div class="faq-right d-inline-flex">
+                <i class="fa-solid fa-caret-down mx-2"></i>
+                <i class="bonus fa-solid fa-caret-up"></i>
+                <h5>Why would I need a business COACH?</h5>
+              </div>
+              
+
+              <div class="bonus mx-3">
+                <p>
+                  How many courses you've been on, using however many techiques and methods. unless you've come to realize the value of mindeset, then you've yet to understand how success comes.
+                </p>
+                <p>
+                  Whit everyone else's mindset involved impacting too. Hence why business coaching is so crucial for success.
+                </p>
+              </div>
+            </div>
+
+
+          
+          </div>
+    <!-- 3 -->
+          <div class="faq-special d-flex justify-content-between ">
+
+            <div class="faq-left">      
+              
+              
+              <div class="faq-right d-inline-flex">
+                <div class="circle-chev">
+                  <i class="fa-solid fa-caret-down mx-2"></i>
+                  <i class="bonus fa-solid fa-caret-up"></i>
+                </div>
+                <h5>What is one-on-one coaching?</h5>
+              </div>
+             
+
+              <span class="bonus mx-3">
+                <p>
+                  How many courses you've been on, using however many techiques and methods. unless you've come to realize the value of mindeset, then you've yet to understand how success comes.
+                </p>
+                <p>
+                  Whit everyone else's mindset involved impacting too. Hence why business coaching is so crucial for success.
+                </p>
+              </span>
+            </div>
+
+
+          
+          </div>     
+
         </div>
 
       </div>
@@ -168,7 +109,7 @@
   </div>
 </template>
 
-
+<i class="fa-solid fa-caret-up"></i>
 
 <style lang="scss" scoped>
 @use '../../assets/scss/partials/general' as *;
@@ -229,21 +170,23 @@
    margin-top: 150px !important;
   }
 
-  .circle {
-    border: 3px solid $color-verde;
-    .fa-caret-up {
-      background-color: $color-verde;
-    }
-  }
-
-
 
 
 }
 
+.faq,
+.faq-special {
+  border-bottom: 1px solid rgb(93, 90, 110);
+  padding: 15px;
+}
   // faq
+
+
   .bonus {
   display: none;
+  p {
+    font-size: 13px;
+  }
 }
 
 .faq:hover .bonus,
@@ -254,18 +197,39 @@
   
 }
 
-
-.faq:hover h6,
-.faq-special:hover h6 {
+.faq:hover h5,
+.faq-special:hover h5 {
   color: $color-verde;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+.fa-caret-up,
+.fa-caret-down {
+  font-size: 15px;
 }
 
 
+// .faq:hover .circle-chev,
+// .faq-special:hover .circle-chev {
+//   border: 2px solid $color-verde;
+//   border-radius: 50%;
+//   padding: 0 15px;
+ 
+// }
 
-.faq:hover .fa-chevron-down,
-.faq-special:hover .fa-chevron-down {
+
+.faq:hover .fa-caret-up,
+.faq-special:hover .fa-caret-up {
+  color: $color-verde;
+
+}
+
+
+.faq:hover .fa-caret-down,
+.faq-special:hover .fa-caret-down {
   display: none;
-  background-color: $color-verde;
+  
 }
 
 </style>
