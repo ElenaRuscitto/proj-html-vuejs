@@ -44,14 +44,26 @@ export default {
 
 
 
-    h6 {
-      color: $color-white;
-    }
+  h6 {
+    color: $color-white;
+  }
 
-    i {
-      color: $color-grigioChiaro;
-      font-size: 20px;
-      padding-right: 30px;
-    }
+  i {
+    color: $color-grigioChiaro;
+    font-size: 20px;
+    padding-right: 30px;
+
+    &:hover {
+      color: $color-white;
+      cursor: pointer;
+      }
+  }
+
+  p:hover {
+    color: $color-white;
+      cursor: pointer;
+  }
+
+
   
 </style>

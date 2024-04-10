@@ -70,11 +70,22 @@ ul {
       list-style: none;
       padding-left: 7px;
       padding-top: 11px;
+
       a {
        text-decoration: none;
        color: $color-grigioChiaro;
        padding-top: 10px;
        font-size: 13px;
+
+
       }
     }
+
+    h6 {
+      color: $color-white;
+    }
+
+a:hover {
+  color: $color-white;
+}
 </style>
