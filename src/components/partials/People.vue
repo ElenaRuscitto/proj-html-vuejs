@@ -121,6 +121,7 @@ span {
   font-size: 12px;
 }
 
+// pallini
 .scorrimento {
     margin: 0 auto;
     margin-top: 20px;
