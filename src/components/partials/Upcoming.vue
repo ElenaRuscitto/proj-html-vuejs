@@ -64,6 +64,12 @@ import {store} from '../../data/store';
         </p>
       </div>
 
+      <div class="svg">
+        <img src="../../assets/img/path1.svg" alt="" width="550px">
+      </div>
+
+   
+
   </div>
 </template>
 
@@ -72,6 +78,15 @@ import {store} from '../../data/store';
 <style lang="scss" scoped>
 @use '../../assets/scss/partials/general' as *;
 @use '../../assets/scss/partials/variables' as *;
+
+.svg {
+  position: absolute;
+  bottom:-3936px;
+  right: 0;
+ 
+ 
+
+}
 .card {
   border: none !important;
 }
