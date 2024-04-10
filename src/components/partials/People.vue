@@ -8,10 +8,10 @@
 <template>
    <div class="people py-5">
 
-      <div class="container-xxl">
+      <div class="container-fluid">
             <div class="testi text-center w-100">
                 <h5 class="mt-5">People are praising Maxcoach</h5>
-                <h2 class=" py-4 mb-5">
+                <h2 class=" py-2 mb-5">
                   <strong>What make they love us?</strong>
                 </h2>
             </div>
@@ -19,7 +19,7 @@
         <div class="row justify-content-between ">
           <!-- card 1 -->
           <div class="col">
-            <div class="card my-card opacity" style="width: 25rem;">
+            <div class="card my-card opacity" style="width: 29rem;">
               <div class="card-body">
                 <h6 class="card-title color">It's a choice of quality for people with special needs</h6>
                 
@@ -40,8 +40,8 @@
           
           <!-- card 2 -->
           <div class="col">
-            <div class="card my-card" style="width: 25rem;">
-              <div class="card-body">
+            <div class="card my-card" style="width: 29rem;">
+              <div class="card-body  m-3">
                 <h6 class="card-title color">High leavel of efficiency and scientific teaching methods</h6>
                 
                 <p class="card-text">I'm a free to learn at own pace, follow my own schedule and choose the subject I want to learn from the syllabus. Great study portal for people like me..</p>
@@ -61,7 +61,7 @@
 
           <!-- card 3 -->
           <div class="col">
-            <div class="card my-card opacity" style="width: 25rem;">
+            <div class="card my-card opacity" style="width: 29rem;">
               <div class="card-body">
                 <h6 class="card-title color">Professional team of specialists and passionate mwntors at reach</h6>
                 
@@ -107,6 +107,8 @@
     .my-card {
       border: none;
       border-radius: 5px;
+      height: 300px;
+  
       .color {
       color: rgb(47, 42, 87);
       }
